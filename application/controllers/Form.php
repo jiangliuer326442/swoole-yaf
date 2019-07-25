@@ -9,9 +9,9 @@ class FormController extends Yaf_Controller_Abstract {
 
 	public function IndexAction() {
 		//1. fetch query
-		$post = HttpServer::$post;
+		//$post = HttpServer::$post;
 
-		//$post = $this->getRequest()->getPost ("fname");
+		$post = $this->getRequest()->getPost ("fname");
 		//var_dump( $post );
 		$content['fname'] = $post["fname"];
 		$content['lname'] = $post["lname"];
