@@ -5,7 +5,7 @@
  * @desc 默认控制器
  * @see http://www.php.net/manual/en/class.yaf-controller-abstract.php
  */
-class FormController extends Yaf_Controller_Abstract {
+class FormController extends MyCtr {
 
 	public function IndexAction() {
 		//1. fetch query
