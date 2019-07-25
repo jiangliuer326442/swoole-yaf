@@ -8,4 +8,8 @@ class YarController extends MyCtr
         $service = new Yar_Server(new YarModel());
         $service->handle();
     }
+
+    public function testAction(){
+        echo "test222";
+    }
 }
